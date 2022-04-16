@@ -5,12 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
+    
+    <!-- Internal styling -->
+    <style>
+        a:link{
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited{
+            color: black;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: blue;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:active{
+            color: yellow;
+            background-color: transparent;
+            text-decoration: none;
+        }
+    </style>
+
 </head>
+
+<!-- Made an inline styling to the body here -->
 <body style="background-color: rgb(184, 185, 215);">
 
 
     <h1 style="background-color: rgb(19, 10, 148); color: white; text-align: center;">A.Tech Services</h1>
 
+    <a href="www.ecowas.com">Click me</a>
     <!-- This is an Heading -->
     <h1>My first Heading</h1>
     <h2>My second Heading</h2>
@@ -22,11 +52,11 @@
 
     <!-- This is a paragraph -->
     <p>This is paragraph</p>
-    <p><b>This is another paragraph</b></p>
+    <p id="second paragraph"><b>This is another paragraph</b></p>
 
 
     <!-- This is a link  -->
-    <a title="This is a link" href="index.html" target="blank"> Visit w3schools HERE</a>
+    <a title="This is a link" href="index.html" target="_blank"> Visit w3schools HERE</a>
 
 
     <!-- tag for an image -->
@@ -45,7 +75,7 @@
     <!-- Styling header with color-->
     <h1 style="font-size: 60px; color:blue; font-family: 'Courier New', Courier, monospace; text-align: center;">A.Tech Services</h1>
     
-    
+    <!-- a preformatted style with an inline styling -->
     <pre style="font-family:  Verdana, Geneva, Tahoma, sans-serif;font-size: 15px; color: red; background-color: white;">
     Bonnie lies over the ocean
 
@@ -82,6 +112,10 @@
         Nigeria. <br>
         email: oluwapelumiabiodun45@gmail.com
     </address></p>
+
+
+    <!-- setting a book mark link -->
+    <a href="#second paragraph">Go to the very second paragraph</a>
 
 </body>
 </html>
