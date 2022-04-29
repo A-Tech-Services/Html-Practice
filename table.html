@@ -17,9 +17,10 @@
         }
 
 
-        table, p{
+        table, p, a, img, button{
             margin-left: 50px;
         }
+
         table, th, td{
             border: 2px solid rgb(235, 3, 3);
             border-collapse: collapse;
@@ -37,6 +38,19 @@
         th{
             background-color: black;
             color: white;
+        }
+
+        a, button{
+            padding: 20px;
+            text-decoration: none;
+            color: white;
+            border-radius: 10px;
+            background-color: rgb(66, 16, 16);
+            margin-bottom: 10px;
+        }
+
+        img{
+            margin-top: 30px;
         }
 
 
@@ -83,6 +97,51 @@
 
         
     </table>
-    <p>This table is created by <i>Abiodun Oluwapelumi Amos</i></p>
+    <p>This table is created by <i>Abiodun Oluwapelumi Amos</i></p><br>
+
+    <a title="This is just a link " href="homepage.html" target="_blank">View more employee >>></a>
+
+    <div class="images">
+        <img src="hi.jpg" alt="waving" width="300">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+
+        <img src="atech.jpg" alt="a tech logo" width="300">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    </div>
+
+    <button onclick="document.location='homepage.html'">Document homepage</button>
+
+    <form action="">
+        <label for="fname">First Name</label><br>
+        <input type="text"><br><br>
+
+        <label for="lname">Last Name</label><br>
+        <input type="text"><br><br>
+
+        <label for="Choose your favorite programming language">Choose your favorite programming language</label><br><br>
+        <input type="radio" name="favlang" id="" value="HTML">
+        <label for="HTMl">HTML</label><br><br>
+
+
+        <input type="radio" name="favlang" id="" value="CSS">
+        <label for="CSS">CSS</label><br><br>
+
+        <input type="radio" name="favlang" id="" value="PHP">
+        <label for="PHP">PHP</label><br><br>
+
+        <input type="radio" name="favlang" id="" value="JavaScript">
+        <label for="JavaScript">JavaScript</label><br><br>
+
+        <label for="msg">Message</label><br>
+        <input type="text"><br><br>
+
+        <input type="submit">
+
+
+    </form>
+
+    <footer>
+        <p>Copyright &copy 2022 | Designed by Amos Pelumi</p>
+    </footer>
 </body>
 </html>
