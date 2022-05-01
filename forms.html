@@ -11,6 +11,15 @@
     <form>
         <h3>Kindly answer the following questions correctly by picking the right answer</h3>
 
+        <label for="passp">Attach a Passport Photograph</label><br>
+        <input type="file" name="passp" id="passp">
+        
+
+
+        <p>Select the date of your exams</p>
+        <label for="date">Date of Exams:</label>
+        <input type="date" name="date" value="date">
+
         <p>What Department are you?</p>
         <select name="dept" id="dept">
             <option value="select">SELECT</option>
@@ -65,7 +74,14 @@
             <input type="radio" name="ques5" value="VERB"> <label for="verb">VERB</label><br>
             <input type="radio" name="ques5" value="NOUN"> <label for="NOUN">NOUN</label><br>
             <input type="radio" name="ques5" value="Pronoun"> <label for="Pronoun">Pronoun</label><br><br>
+
+            <li>
+                <textarea name="message" id="" cols="30" rows="10">Is this Playing?</textarea>
+                </textarea>
+            </li>
         </ol>
+        <button type="button" onclick="alert('Hey!')">Click me</button>
+        <input type="reset">
         
 
         
